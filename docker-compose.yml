@@ -1,0 +1,40 @@
+version: "3"
+services:
+  beesis-db:
+    container_name: beesis-db
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: "database"
+      MYSQL_USER: "database"
+      MYSQL_PASSWORD: "toor"
+      MYSQL_ROOT_PASSWORD: "toor"
+    expose:
+      - "3306"
+    ports:
+      - "3306:3306"
+    volumes:
+      - beesis-db-data:/var/lib/mysql
+    networks:
+      inner:
+        aliases:
+          - beesis-db
+  beesis:
+    container_name: beesis
+    image: nouphet/docker-php4
+    environment: {}
+    expose:
+      - "3000"
+    ports:
+      - "3000:80"
+    volumes:
+      - "./beesis13:/var/www/html"
+    depends_on:
+      - beesis-db
+    networks:
+      inner:
+        aliases:
+          - beesis
+networks:
+  inner: {}
+volumes:
+  beesis-db-data: {}

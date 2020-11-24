@@ -1,0 +1,27 @@
+A:link {color: #000000}
+A:visited {color: #000000}
+A:active {color: #000000}
+A:hover {color: #eeeeee; text-decoration: none}
+
+.bg {background-color: #f4d5b9}
+.bg2 {background-color: #fef8d6}
+.bg3 {background-color: }
+
+.menu_font {font-weight: bold; text-align: center; font-variant: small-caps; background-color: #f47300; border-color: black; border-width:1px; border-style:solid; color: black}
+
+.nev {font-size: 17}
+.szegely	{border-style: solid; border-width: 1px;}
+.tema	{font-size: 20; margin: 10}
+
+.alcim {font-weight: bold; text-align: center; font-variant: small-caps; background-color: #f47300; border-color: black; border-width:1px; border-style: solid; color: black}
+
+input, textarea {background-color: #f4d5b9; color: black; border-style: solid; border-width: 1px; border-color: black}
+
+.focim {font-size: 50; text-align: center; margin: 3;}
+.alap {background-color: #f47300; color: black; font-family: arial}
+
+.nagyszegely	{
+					border-style: solid; 
+					border-width: 1px;
+					color: black;
+				}

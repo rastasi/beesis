@@ -1,0 +1,120 @@
+
+a:link			{
+					margin-left:;
+					color: black;
+					font-family: helveticia;
+					font-size: 13;
+					text-decoration: underline
+				}
+
+a:visited 		{
+					margin-left:;
+					color: black;
+					font-family: helveticia;
+					font-size: 13;
+					text-decoration: underline
+				}
+								
+a:active 		{
+					margin-left: ;
+					color: black;
+					font-family;
+					helveticia;
+					font-size: 13;
+					text-decoration: underline
+				}
+								
+a:hover 		{
+					margin-left: ;
+					color: #4a79cd;
+					font-family: helveticia;
+					font-size: 13;
+					text-decoration: underline			
+				}
+									
+.bg 			{
+					background-color: #eeeee6; font-size: 13
+				}
+.bg2 			{
+					background-color: ; font-size: 13
+				}
+.bg3 			{
+					background-color: ; font-size: 13
+				}
+
+.menu_font 		{
+					font-weight: bold; 
+					text-align: center; 
+					font-variant: small-caps; 
+					background-color: #4a79cd; 
+					border-color: black; 
+					border-width:1px; 
+					border-style:solid; 
+					color: white
+				}
+				
+.alert	 		{
+					font-weight: bold; 
+					text-align: center; 
+					font-variant: small-caps; 
+					background-color: #ff0000; 
+					border-color: black; 
+					border-width:1px; 
+					border-style:solid; 
+					color: white
+				}
+
+				
+.nev 			{
+					font-size: 14; 
+					margin-bottom: 2; 
+					margin-top: 2
+				}
+.szegely		{
+					border-style: solid; 
+					border-width: 1px;
+				}
+				
+.nagyszegely	{
+					border-style: solid; 
+					border-width: 1px;
+					color: black;
+				}
+.tema			{
+					font-size: 16; 
+					margin: 10
+				}
+.topicsor		{
+					background-color: #e6e6df;
+				}
+
+.alcim 			{
+					font-weight: bold; 
+					text-align: center; 
+					font-variant: small-caps; 
+					background-color: #4a79cd; 
+					border-color: black; 
+					border-width: 1px; 
+					border-style: solid; 
+					color: white
+				}
+
+input, textarea, select, option 
+				{
+					background-color: #eeeee6; 
+					color: black; 
+					border-style: solid; 
+					border-width: 1px; 
+					border-color: black; 
+					font-size: 13
+				}
+
+.alap 			{
+					font-size: 11
+				}
+
+.focim 			{
+					font-size: 30; 
+					text-align: center; 
+					margin: 3;
+				}
