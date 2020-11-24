@@ -27,7 +27,8 @@ services:
     ports:
       - "3000:80"
     volumes:
-      - "./beesis13:/var/www/html"
+      - "./:/var/www/html"
+      - "./phpconf:/etc/php4/conf.d"
     depends_on:
       - beesis-db
     networks:

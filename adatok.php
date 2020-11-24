@@ -13,7 +13,7 @@ $style = 'style.css';
 $cim = "Babylon's System Corporation";
 
 // A MySQL adatb�zis-szerver neve
-$bazis_host = 'localhost';
+$bazis_host = 'beesis-db';
 
 // Felhaszn�l�n�v a MySQL Adatb�zishoz
 $bazis_user = 'root';
