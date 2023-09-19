@@ -2,6 +2,7 @@ version: "3"
 services:
   beesis-db:
     container_name: beesis-db
+    platform: linux/x86_64
     image: mysql:5.7
     environment:
       MYSQL_DATABASE: "database"
@@ -20,6 +21,7 @@ services:
           - beesis-db
   beesis:
     container_name: beesis
+    platform: linux/x86_64
     image: nouphet/docker-php4
     environment: {}
     expose:
